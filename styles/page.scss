@@ -22,6 +22,7 @@ a:hover {
 
 .right-column {
     background-color: $bg-highlight;
+    padding-left:1em;
 }
 
 .left-column {
@@ -45,13 +46,6 @@ a:hover {
 
 .pad-right {
     padding-right: 0.3em;
-}
-
-.border-left {
-    border: 1px solid $bg-lighten !important;
-    border-right: 0 !important;
-    border-top: 0 !important;
-    border-bottom: 0 !important;
 }
 
 .coding-drone-no-4729426 {

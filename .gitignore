@@ -5,7 +5,3 @@
 *.code-workspace
 .history
 .ionide
-
-# CSS, except ResponsiveBP
-*.css
-!responsive.min.css
