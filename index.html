@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Michał Piasecki - Portfolio" />
+        <meta name="title" content="Michał Piasecki - Portfolio">
+	    <meta name="robots" content="index, follow">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <meta name="language" content="English">
+	    <title>Michał Piasecki - Portfolio</title>
+        <link href="styles/responsive/responsive.min.css" rel="stylesheet" />
+        <link href="styles/page.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row no-gutter">
+                <div class="col-xs-12 header">
+                    <h2 class="pad-left">Michał Piasecki - .NET Developer <span class="pad-right push"><a class="icon" href="mailto:mpiasecki720@protonmail.com">📧</a></span></h2>
+                </div>
+                <div class="row equal-height no-gutter">
+                    <div class="col-xxs-4 col-xs-3 col-s-2 pad-right left-column">
+                        <img class="coding-drone-no-4729426" loading="lazy" src="img/mpiasecki.jpg" />
+                        <ul class="contact no-bullets">
+                            <li><h4>Contact:</h4></li>
+                            <li>+48 575 816 970</li>
+                            <li><a href="mailto:mpiasecki720@protonmail.com">E-mail</a></li>
+                            <li><a href="https://github.com/xtul" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/micha%C5%82-piasecki-234930197/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                        <h4>Availability</h4>
+                        <ul class="skills">
+                            <li>Remote</li>
+                            <li>Białystok</li>
+                            <li>Relocation in Poland</li>
+                        </ul>
+                        <h4>Skills:</h4>
+                        <ul class="skills">
+                            <li>
+                                .NET 5
+                                <ul class="technologies">
+                                    <li>ASP.NET</li>
+                                    <li>WPF</li>
+                                    <li>EF Core</li>
+                                    <li>Blazor</li>
+                                    <li>Razor</li>
+                                    <li>xUnit</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Web
+                                <ul class="technologies">
+                                    <li>Java/TypeScript</li>
+                                    <li>HTML</li>
+                                    <li>SCSS/CSS</li>
+                                </ul>
+                            </li>
+                            <li>
+                                System
+                                <ul class="technologies">
+                                    <li>Apache</li>
+                                    <li>Linux</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Other
+                                <ul class="technologies">
+                                    <li>Native Polish</li>
+                                    <li>Adv. English</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xxs-8 col-xs-9 col-s-10 pad-left border-left right-column">
+                        <h3>About</h3>
+                        <p>
+                            I am a passionate, self-taught .NET developer specializing in web back-end; however 
+                            front-end work is not an obstacle. I started learning around 2019 and I still continue 
+                            to learn as I realize and maintain personal projects.
+                        </p>
+
+                        <p>
+                            I believe I have skills to become a productive member of a team, though there is always
+                            room for improvement.
+                        </p>
+
+                        <h3>Experience</h3>
+                        <p>
+                            <a href="https://elexpress.pl/">Elexpress.pl</a>, May 2019 – June 2020<br />
+                            My work at Elexpress mostly involved helpdesk, but in spare time I programmed internal 
+                            tools in WPF, later ported to ASP.NET for distribution convenience.
+                        </p>
+                        <p>
+                            I created an user account generator for a GPS tracking service. The amount of new 
+                            users daily ranged from 30 to 50 and each required up to 10 minutes of work:
+                        </p>
+                        <ol>
+                            <li>Create an account in GPS service, think of a random password,</li>
+                            <li>Re-write a 12-digit ID from each ordered GPS device,</li>
+                            <li>Assign above ID to the account,</li>
+                            <li>Copy e-mail contents from text file, change it up a bit and send it to the customer.</li>
+                        </ol>
+                        <p>
+                            Around 1/4 of accounts had issues, like misspellings. I created a tool that did all steps 
+                            automatically, and device IDs no longer had to be rewritten thanks to OCR scanner. It reduced 
+                            user creation time to ~10 seconds each.
+                        </p>
+                        <p>
+                            Another notable tool was stock viewer. It pulled all products from web shop API along 
+                            with their current stock and sales from 30 days. Thanks to the API-provided data, 
+                            user was able to check which products needed resupplying. In addition, API allowed me 
+                            to point the exact location of a product in storage.
+                        </p>
+
+                        <h3>My projects</h3>
+                        <div class="accordion">
+                            <div class="accordion-head">
+                                <a data-dropdown-target="#cllps1" href="#">
+                                    NetChan                          
+                                </a>
+                            </div>
+                            <div class="accordion-body" id="cllps1">
+                                <ul class="images">
+                                    <li><a target="_blank" href="img/netchan/main.jpg"><img src="img/netchan/thumb.jpg"/></a></li>
+                                    <li><a target="_blank" href="img/netchan/main2.jpg"><img src="img/netchan/thumb2.jpg"/></a></li>
+                                </ul>
+                                <ul class="technologies">
+                                    <li>ASP.NET Web API</li>
+                                    <li>Entity Framework Core</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Vue.js 2</li>
+                                    <li>Apache</li>
+                                </ul>
+                                <p>
+                                    NetChan is an anonymous message board heavily inspired by websites such as 4channel.org.
+                                    Technologies were chosen mostly based on what I'm most experienced with or wanting to experiment 
+                                    with something new.
+                                </p>
+                                <ul>
+                                    <li>Basic CRUD operations - retrieving, creation, deletion of posts</li>
+                                    <li>Users can attach images to their posts</li>
+                                    <li>New boards can be added on runtime, however there's no straightforward way to do so yet</li>
+                                </ul>
+                                <p>
+                                    Live demo was deployed manually to a VPS with Ubuntu 20.04. 
+                                    It is somewhat outdated compared to source available on GitHub, but it's still representative 
+                                    of how the software looks from user's perspective.
+                                </p>
+                                <ul class="links">
+                                    <li><a href="https://netchan.nl">Live demo</a></li>
+                                    <li><a href="https://github.com/xtul/NetBoard">Back-end repository</a></li>
+                                    <li><a href="https://github.com/xtul/NetChan">Front-end repository</a></li>
+                                </ul>
+                            </div>
+                            <div class="accordion-head">
+                                <a data-dropdown-target="#cllps2" href="#">
+                                    Url Solver                             
+                                </a>
+                            </div>
+                            <div class="accordion-body collapse" id="cllps2">
+                                <ul class="images">
+                                    <li><a target="_blank" href="img/urlsolver/main.jpg"><img src="img/urlsolver/thumb.jpg"/></a></li>
+                                </ul>
+                                <ul class="technologies">
+                                    <li>ASP.NET MVC</li>
+                                    <li>Plain JavaScript</li>
+                                    <li>HTML/CSS</li>
+                                    <li>Heroku</li>
+                                </ul>
+                                <p>
+                                    A small service that enters the provided URL and returns it's final URL and page title.
+                                    Works best if used with link shorteners such as bit.ly or tiny.pl, as it allows the user 
+                                    to see the hidden content.
+                                </p>
+                                <p>
+                                    I decided to use Heroku for deployment because the application can be automatically deployed 
+                                    as a self-contained Linux application as soon as <code>master</code> gets a new commit. 
+                                    Despite initial difficulties, it proved to be much more convenient than <code>rsync</code>ing 
+                                    published app to a VPS...
+                                </p>
+                                <ul class="links">
+                                    <li><a href="https://url-solver.herokuapp.com">Live demo</a></li>
+                                    <li><a href="https://url-solver.herokuapp.com/api">API URL</a></li>
+                                    <li><a href="https://github.com/xtul/UrlSolver">Repository</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="styles/responsive/vendor/jquery-2.1.4.min.js"></script>
+        <script src="styles/responsive/responsive.min.js"></script>
+    </body>
+</html>

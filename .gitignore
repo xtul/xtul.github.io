@@ -1,0 +1,11 @@
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+.history
+.ionide
+
+# CSS, except ResponsiveBP
+*.css
+!responsive.min.css

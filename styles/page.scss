@@ -1,0 +1,139 @@
+$bg: rgb(238, 238, 238);
+$bg-highlight: lighten($bg, 2.5%);
+$bg-lighten: lighten($bg, 5%);
+$color-primary: #505d65;
+$color-primary-lighten: lighten($color-primary, 5%);
+$color-secondary: #addfff;
+
+$link: rgb(62, 127, 248);
+$link-lighten: lighten($link, 10%);
+
+body {
+    background-color: $bg;
+}
+
+a {
+    color: $link;
+}
+
+a:hover {
+    color:$link-lighten;
+}
+
+.right-column {
+    background-color: $bg-highlight;
+}
+
+.left-column {
+    background-color: $color-primary-lighten;
+    padding:1em;
+    padding-right:0;
+}
+
+.left-column ul li a, .left-column h4 {
+    color: $bg;
+}
+
+.header {
+    background-color: $color-primary;
+    color: $bg;
+}
+
+.pad-left {
+    padding-left:0.3em;
+}
+
+.pad-right {
+    padding-right: 0.3em;
+}
+
+.border-left {
+    border: 1px solid $bg-lighten !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.coding-drone-no-4729426 {
+    padding-right:2em;
+}
+
+.accordion {
+    margin-right:0.3em;
+}
+
+.accordion-head {
+    background-color: $bg-lighten;
+}
+
+ul.technologies, ul.images, ul.links, ul.skills {
+    margin:0;
+    padding:0;
+}
+
+ul.technologies {
+    margin-top:0.3em;
+}
+
+ul.contact {
+    color: $bg;
+}
+
+ul.skills {
+    padding-right:2em;
+    padding-bottom: 0.5em;
+}
+
+ul.technologies > li, ul.skills > li {
+    display: inline-block;
+    background-color:$color-primary;
+    color:$bg;
+    padding:0.3em;
+    margin-top:0.3em !important;
+}
+
+ul.skills > li {
+    background-color: darken($color-primary-lighten, 2.5%);
+}
+
+ul.technologies > li, ul.links > li, ul.contact > li, ul.skills > li {
+    font-size: .83rem;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    page-break-after: avoid;
+    font-weight:bold;
+}
+
+ul.images > li, ul.links > li {
+    display:inline-block;
+    margin-right:0.3em;
+    margin-top:0.3em;
+}
+
+ul.links {
+    margin-bottom: 1em !important;
+}
+
+ul.links > li {
+    background-color:$color-secondary;
+    padding:0.3em;
+}
+
+ul.links > li > a {
+    text-decoration:none;
+}
+
+h4 {
+    margin: 0 !important;
+    margin-bottom:0.2em !important;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+p {
+    text-align:justify;
+    margin-left:0.3em;
+    margin-right:2em;
+}
